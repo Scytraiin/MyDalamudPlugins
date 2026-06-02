@@ -10,6 +10,11 @@
     "RepoUrl": "https://github.com/Scytraiin/ffxiv-loot-distribution",
     "IconUrl": "https://raw.githubusercontent.com/Scytraiin/ffxiv-loot-distribution/main/assets/branding/Loot_History_v1.png",
     "ApplicableVersion": "any",
+    "CategoryTags": [
+      "utility",
+      "loot",
+      "raid"
+    ],
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
@@ -31,6 +36,11 @@
     "RepoUrl": "https://github.com/Scytraiin/VoiceDirectorV2",
     "IconUrl": "https://raw.githubusercontent.com/Scytraiin/VoiceDirectorV2/main/images/icon.png",
     "ApplicableVersion": "any",
+    "CategoryTags": [
+      "utility",
+      "audio",
+      "quality-of-life"
+    ],
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
