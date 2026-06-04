@@ -1,5 +1,6 @@
 <Project Sdk="Dalamud.NET.Sdk/15.0.0">
   <PropertyGroup>
+    <AssemblyName>VoiceDirectorV2</AssemblyName>
     <Authors>ScytRaiin</Authors>
     <Version>1.6.2</Version>
     <AssemblyVersion>1.6.2.0</AssemblyVersion>

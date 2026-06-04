@@ -27,14 +27,14 @@
   },
   {
     "Author": "ScytRaiin",
-    "Name": "Voice Director",
+    "Name": "VoiceDirectorV2",
     "Description": "Changes the cutscene voice language for configured duties and restores your default selection elsewhere.",
     "Punchline": "Changes your VO language on a per-duty basis.",
-    "InternalName": "VoiceDirector",
+    "InternalName": "VoiceDirectorV2",
     "AssemblyVersion": "1.6.2.0",
     "TestingAssemblyVersion": "1.6.2.0",
     "RepoUrl": "https://github.com/Scytraiin/VoiceDirectorV2",
-    "IconUrl": "https://raw.githubusercontent.com/Scytraiin/VoiceDirectorV2/main/images/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/Scytraiin/VoiceDirectorV2/master/images/icon.png",
     "ApplicableVersion": "any",
     "CategoryTags": [
       "utility",

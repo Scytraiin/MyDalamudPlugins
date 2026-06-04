@@ -1,19 +1,19 @@
 # Voice Director
 
-Workspace for the `Voice Director` Dalamud plugin.
+Workspace for the `VoiceDirectorV2` Dalamud plugin.
 
 The repo contains the plugin, unit tests, local Docker validation, release notes, and custom repo metadata.
 
 ## Projects
 
-- `VoiceDirector/` - the Dalamud plugin.
+- `VoiceDirector/` - the Dalamud plugin source.
 - `VoiceDirector.Tests/` - unit tests for voice-selection logic and repository metadata.
 - `scyt.repo.json` - custom Dalamud repository metadata.
 - `release-notes/` - release notes used for GitHub releases.
 
 ## Plugin
 
-`Voice Director` changes the `CutsceneMovieVoice` game config value when you enter configured duties and restores your default language elsewhere.
+`VoiceDirectorV2` changes the `CutsceneMovieVoice` game config value when you enter configured duties and restores your default language elsewhere.
 
 Open it in game with:
 
@@ -84,6 +84,6 @@ Manual release flow:
 
 ## Preview
 
-![UI preview](https://raw.githubusercontent.com/Scytraiin/VoiceDirectorV2/images/preview1.png)
+![UI preview](https://raw.githubusercontent.com/Scytraiin/VoiceDirectorV2/master/images/preview1.png)
 
 This repository is forked from the original Voice Director repository because the original project is no longer maintained for recent FFXIV / Dalamud versions.
