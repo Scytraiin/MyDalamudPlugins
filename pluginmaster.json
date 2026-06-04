@@ -31,8 +31,8 @@
     "Description": "Changes the cutscene voice language for configured duties and restores your default selection elsewhere.",
     "Punchline": "Changes your VO language on a per-duty basis.",
     "InternalName": "VoiceDirectorV2",
-    "AssemblyVersion": "1.6.2.0",
-    "TestingAssemblyVersion": "1.6.2.0",
+    "AssemblyVersion": "1.6.3.0",
+    "TestingAssemblyVersion": "1.6.3.0",
     "RepoUrl": "https://github.com/Scytraiin/VoiceDirectorV2",
     "IconUrl": "https://raw.githubusercontent.com/Scytraiin/VoiceDirectorV2/master/images/icon.png",
     "ApplicableVersion": "any",
@@ -44,11 +44,11 @@
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1780293439,
+    "LastUpdate": 1780582077,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://github.com/Scytraiin/VoiceDirectorV2/releases/download/v1.6.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/Scytraiin/VoiceDirectorV2/releases/download/v1.6.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Scytraiin/VoiceDirectorV2/releases/download/v1.6.2/latest.zip",
-    "Changelog": "Voice Director 1.6.2 release."
+    "DownloadLinkInstall": "https://github.com/Scytraiin/VoiceDirectorV2/releases/download/v1.6.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Scytraiin/VoiceDirectorV2/releases/download/v1.6.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Scytraiin/VoiceDirectorV2/releases/download/v1.6.3/latest.zip",
+    "Changelog": "Voice Director 1.6.3 release."
   }
 ]
