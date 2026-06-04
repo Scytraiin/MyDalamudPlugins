@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="latest">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/FFYIV/out/release/latest.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LootInfoPlugin/out/release/latest.zip!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

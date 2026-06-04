@@ -1,28 +1,25 @@
 # MyDalamudPlugins
 
-This repository is set up as a master/custom Dalamud plugin repository.
+This repo is the home for a small collection of personal Dalamud plugins and the custom repository metadata that makes them easy to install.
 
-The source for each plugin lives in its own folder:
+It is meant to be a simple publishing hub rather than a deep technical reference. Each plugin keeps its own folder, release assets, and notes, while this repository ties them together for custom repo use.
 
-- `FFYIV`
-- `VoiceDirectorV2`
+## What lives here
 
-The master repository file is [pluginmaster.json](pluginmaster.json). It aggregates the plugin store entries that Dalamud expects and points each plugin at its own GitHub release artifact.
+- `VoiceDirectorV2` for duty-based cutscene voice switching.
+- `LootInfoPlugin` for the loot-history plugin work in this collection.
+- [pluginmaster.json](pluginmaster.json) as the file Dalamud reads for the custom repository listing.
 
-## Release model
+## Using this repo in Dalamud
 
-Build and release each plugin from its own repository folder and keep its GitHub releases versioned independently.
+Once this repository is published somewhere public, add the raw `pluginmaster.json` URL to Dalamud's Custom Plugin Repositories list.
 
-After a plugin release changes version metadata, update the matching entry in `pluginmaster.json` so the custom repository advertises the new version and release ZIP.
-
-## Using in Dalamud
-
-After this repository is pushed somewhere public, add the raw `pluginmaster.json` URL to Dalamud's Custom Plugin Repositories list.
-
-Example shape:
+Example format:
 
 `https://raw.githubusercontent.com/<owner>/<repo>/<branch>/pluginmaster.json`
 
-## Recommended future improvement
+## For maintainers
 
-Keeping copied plugin folders here works, but if you want cleaner long-term maintenance, Git submodules are the better fit. They preserve each plugin's own history and release workflow while still giving you one master repository that serves a combined `pluginmaster.json`.
+Most day-to-day work happens inside the individual plugin folders. When a plugin version changes, its matching entry in `pluginmaster.json` should be updated so the custom repository points at the correct release artifact.
+
+If this collection grows a lot over time, moving plugin folders to submodules would make long-term maintenance cleaner, but the current layout is intentionally straightforward and easy to work with.

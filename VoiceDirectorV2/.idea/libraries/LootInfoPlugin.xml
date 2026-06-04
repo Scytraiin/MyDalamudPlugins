@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="LootInfoPlugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LootInfoPlugin/FFXIV-ProximityVoiceChat-master.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LootInfoPlugin/Dalamud-master.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LootInfoPlugin/14.0.4.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LootInfoPlugin/15.0.0.2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
