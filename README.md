@@ -1,14 +1,29 @@
 # MyDalamudPlugins
 
-This repo is the home for a small collection of personal Dalamud plugins and the custom repository metadata that makes them easy to install.
-
-It is meant to be a simple publishing hub rather than a deep technical reference. Each plugin keeps its own folder, release assets, and notes, while this repository ties them together for custom repo use.
+This repo is a lightweight hub for your personal Dalamud plugins and the custom repository metadata that makes them easy to install.
 
 ## What lives here
 
-- `VoiceDirectorV2` for duty-based cutscene voice switching.
-- `LootInfoPlugin` for the loot-history plugin work in this collection.
 - [pluginmaster.json](pluginmaster.json) as the file Dalamud reads for the custom repository listing.
+- `VoiceDirectorV2` as a symlink to `../VoiceDirectorV2`
+- `LootInfoPlugin` as a symlink to `../../FFYIV`
+
+## Working style
+
+Make code changes in the real plugin repositories:
+
+- `../VoiceDirectorV2`
+- `../../FFYIV`
+
+This hub stays useful for:
+
+- quickly jumping to the plugin repos from one place
+- maintaining [pluginmaster.json](pluginmaster.json)
+- publishing or checking the custom repo layout
+
+## Local safety
+
+When this repo was converted into a hub, the old in-repo plugin copies were moved into `.local-backups/` and ignored by git so nothing was lost during the migration.
 
 ## Using this repo in Dalamud
 
@@ -17,9 +32,3 @@ Once this repository is published somewhere public, add the raw `pluginmaster.js
 Example format:
 
 `https://raw.githubusercontent.com/<owner>/<repo>/<branch>/pluginmaster.json`
-
-## For maintainers
-
-Most day-to-day work happens inside the individual plugin folders. When a plugin version changes, its matching entry in `pluginmaster.json` should be updated so the custom repository points at the correct release artifact.
-
-If this collection grows a lot over time, moving plugin folders to submodules would make long-term maintenance cleaner, but the current layout is intentionally straightforward and easy to work with.

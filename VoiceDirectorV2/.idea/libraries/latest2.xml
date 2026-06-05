@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="latest2">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/LootInfoPlugin/out/plugin/LootDistributionInfo/latest.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
