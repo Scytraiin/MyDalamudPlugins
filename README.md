@@ -4,9 +4,9 @@ This repo is a lightweight hub for your personal Dalamud plugins and the custom 
 
 ## What lives here
 
-- [pluginmaster.json](pluginmaster.json) as the file Dalamud reads for the custom repository listing.
-- `VoiceDirectorV2` as a symlink to `../VoiceDirectorV2`
-- `LootInfoPlugin` as a symlink to `../../FFYIV`
+- `pluginmaster.json` as the file Dalamud reads for the custom repository listing.
+- `VoiceDirectorV2` as a symlink to the standalone `VoiceDirectorV2` repository.
+- `LootInfoPlugin` as a symlink to the standalone `FFYIV` repository.
 
 ## Working style
 
@@ -18,7 +18,7 @@ Make code changes in the real plugin repositories:
 This hub stays useful for:
 
 - quickly jumping to the plugin repos from one place
-- maintaining [pluginmaster.json](pluginmaster.json)
+- maintaining `pluginmaster.json`
 - publishing or checking the custom repo layout
 
 ## Local safety
