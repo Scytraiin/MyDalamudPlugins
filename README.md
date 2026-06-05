@@ -5,15 +5,15 @@ This repo is a lightweight hub for your personal Dalamud plugins and the custom 
 ## What lives here
 
 - `pluginmaster.json` as the file Dalamud reads for the custom repository listing.
-- `VoiceDirectorV2` as a symlink to the standalone `VoiceDirectorV2` repository.
-- `LootInfoPlugin` as a symlink to the standalone `FFYIV` repository.
+- [VoiceDirectorV2](https://github.com/Scytraiin/VoiceDirectorV2) as the standalone repository for the voice-language plugin.
+- [ffxiv-loot-distribution](https://github.com/Scytraiin/ffxiv-loot-distribution) as the standalone repository for the loot-history plugin.
 
 ## Working style
 
 Make code changes in the real plugin repositories:
 
-- `../VoiceDirectorV2`
-- `../../FFYIV`
+- [VoiceDirectorV2](https://github.com/Scytraiin/VoiceDirectorV2)
+- [ffxiv-loot-distribution](https://github.com/Scytraiin/ffxiv-loot-distribution)
 
 This hub stays useful for:
 
